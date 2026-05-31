@@ -144,3 +144,10 @@ table tbody tr td {
     color: #ffffff !important;
     background-color: transparent !important;
 }
+#sister h2 {
+    text-align: center;
+    background-color: #212529; /* 這是 Bootstrap 標準深色背景 */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 4px 4px 0 0;
+}
