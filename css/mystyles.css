@@ -152,6 +152,12 @@ table tbody tr td {
     padding: 20px;
     border-radius: 4px 4px 0 0;
 }
-.resume-section {
-    min-height: 100vh;
+#sideNav {
+    width: 250px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-left: 250px;
+    }
 }
