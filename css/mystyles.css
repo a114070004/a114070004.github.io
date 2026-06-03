@@ -46,6 +46,10 @@ section#about {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 !important;
+    padding: 3rem !important;
 }
 
 section#about h1, section#about div {
