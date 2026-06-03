@@ -153,7 +153,7 @@ table tbody tr td {
     border-radius: 4px 4px 0 0;
 }
 #sideNav {
-    width: 250px;
+    width: 100%;
 }
 #about {
     width: 100vw;
