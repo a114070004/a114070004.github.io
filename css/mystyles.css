@@ -155,9 +155,13 @@ table tbody tr td {
 #sideNav {
     width: 250px;
 }
+#about {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+}
 
-@media (min-width: 992px) {
-    body {
-        padding-left: 250px;
-    }
+.resume-section-content {
+    width: 100%;
+    max-width: 100%;
 }
