@@ -161,7 +161,14 @@ table tbody tr td {
     margin: 0;
 }
 
-.resume-section-content {
-    width: 100%;
-    max-width: 100%;
+
+
+.resume-section-content{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+#about .resume-section-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
