@@ -152,9 +152,8 @@ table tbody tr td {
     padding: 20px;
     border-radius: 4px 4px 0 0;
 }
-#sideNav {
-    width: 100%;
-}
+
+
 #about {
     width: 100vw;
     min-height: 100vh;
