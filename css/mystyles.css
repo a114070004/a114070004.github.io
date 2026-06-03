@@ -163,12 +163,25 @@ table tbody tr td {
 
 
 
-.resume-section-content{
-    max-width: 100% !important;
-    width: 100% !important;
+@media (min-width: 992px) {
+
+    body {
+        padding-left: 17rem;
+    }
+
+    .resume-section {
+        min-width: calc(100vw - 17rem) !important;
+        max-width: none !important;
+        width: calc(100vw - 17rem) !important;
+    }
+
+    .resume-section-content {
+        width: 100% !important;
+        max-width: none !important;
+    }
 }
 
-#about .resume-section-content{
-    padding-left: 3rem;
-    padding-right: 3rem;
+#about {
+    background-size: cover !important;
+    background-position: center center !important;
 }
