@@ -184,3 +184,18 @@ table tbody tr td {
     background-size: cover !important;
     background-position: center center !important;
 }
+
+#fun img, #anime img, .resume-section img {
+    width: 100% !important;
+    max-height: 38vh !important; 
+    object-fit: cover !important; 
+    border-radius: 8px;          
+}
+
+
+#sister img, #family img {
+    width: 100% !important;
+    max-height: 25vh !important; 
+    object-fit: cover !important; 
+    border-radius: 6px;
+}
