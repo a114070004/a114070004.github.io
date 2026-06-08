@@ -185,17 +185,18 @@ table tbody tr td {
     background-position: center center !important;
 }
 
-#fun img, #anime img, .resume-section img {
+
+#fun table img, #fun img {
+    height: auto !important;         
+    max-height: 250px !important;   
+    object-fit: contain !important;  
     width: 100% !important;
-    max-height: 38vh !important; 
-    object-fit: cover !important; 
-    border-radius: 8px;          
 }
 
 
-#sister img, #family img {
+#sister .row img, #sister img {
+    height: auto !important;         
+    max-height: 280px !important;    
+    object-fit: contain !important; 
     width: 100% !important;
-    max-height: 25vh !important; 
-    object-fit: cover !important; 
-    border-radius: 6px;
 }
